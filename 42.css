@@ -11,10 +11,6 @@ body {
   margin: auto;
 }
 
-footer a {
-  display: table;
-}
-
 [rel=home]:not(:focus) {
   text-decoration-style: dashed;
 }
@@ -29,4 +25,16 @@ footer a {
 
 h1 {
   font: inherit;
+}
+
+blockquote {
+  margin-inline: 0;
+  font-size: 1.6em;
+}
+
+.firefly {
+  text-shadow:
+    2ex -3ex 1ex,
+    8ex -5ex 1ex,
+    13ex -8ex 2ex;
 }
