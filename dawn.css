@@ -4,27 +4,15 @@
 }
 
 :root {
-  background: #edd;
-  color: #100;
+  background-color: #edd;
+  background-image: conic-gradient(gold, lemonchiffon, gold);
+  color: indigo;
 }
 
-:link {
-  background: #eed;
+:any-link {
   color: blueviolet;
 }
 
-:visited {
-  background: #eed;
-  color: darkviolet;
-}
-
 :any-link:hover {
-  background: oldlace;
   color: darkorchid;
-  text-decoration-color: darkslateblue;
-}
-
-mark {
-  background: salmon;
-  color: #100;
 }
