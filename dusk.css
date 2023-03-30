@@ -1,29 +1,18 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: gold;
+  color: indigo;
 }
 
 :root {
-  background: #111;
-  color: #ddd;
+  background-color: indigo;
+  background-image: conic-gradient(darkviolet, darkmagenta, darkviolet);
+  color: gainsboro;
 }
 
-:link {
-  color: plum;
-  background: #100;
-}
-
-:visited {
-  color: orchid;
-  background: #100;
+:any-link {
+  color: peachpuff;
 }
 
 :any-link:hover {
-  color: hotpink;
-  text-decoration-color: #e0e;
-}
-
-mark {
-  background: #e99;
-  color: #100;
+  color: lemonchiffon;
 }
